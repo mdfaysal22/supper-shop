@@ -11,7 +11,7 @@
     "format": "prettier --write .",
     "eslint": "eslint .",
     "prepare": "husky install",
-    "lint-staged": "npm run eslint && npm run format"
+    "lint-staged": "eslint && format"
   },
   "dependencies": {
     "react": "^18.2.0",
