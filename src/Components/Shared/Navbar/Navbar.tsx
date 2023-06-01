@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../../../assets/logo.png';
+import logo from '../../../assets/logo.png'
 
 const Navbar = () => {
   const [state, setState] = useState(false)
@@ -13,17 +13,15 @@ const Navbar = () => {
   ]
 
   return (
-    <nav className=" bg-white w-full shadow-sm shadow-white shadow-b md:static">
+    <nav className=" bg-white mb-4 w-full shadow-sm shadow-white shadow-b md:static">
       <div className="items-center px-2 max-w-screen-xl mx-auto md:flex md:px-2">
         <div className="flex items-center justify-between py-2 md:py-6 md:block">
-          <a className='flex justify-center items-center gap-2' href="javascript:void(0)">
-            <img
-              src={logo}
-              width={30}
-              height={"auto"}
-              alt="Float UI logo"
-            />
-            <span className=' text-2xl text-black'>Super Shop</span>
+          <a
+            className="flex justify-center items-center gap-2"
+            href="javascript:void(0)"
+          >
+            <img src={logo} width={30} height={'auto'} alt="Float UI logo" />
+            <span className=" text-2xl text-black">Super Shop</span>
           </a>
           <div className="md:hidden">
             <div className="flex justify-center items-center gap-5">
@@ -106,7 +104,6 @@ const Navbar = () => {
         </div>
         <div className="hidden  md:inline-block">
           <div className="flex justify-center items-center gap-5">
-            
             <div className="indicator ">
               <span className="indicator-item badge w-6 h-3 text-xs">12</span>
               <button className="grid  cursor-pointer  transition-all   w-10 h-10 rounded-full place-items-center">
@@ -124,8 +121,7 @@ const Navbar = () => {
                     d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
                   />
                 </svg>
-             
-            </button>
+              </button>
             </div>
 
             <div className="avatar placeholder">
