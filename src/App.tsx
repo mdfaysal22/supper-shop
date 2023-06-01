@@ -1,3 +1,4 @@
+import Footer from './Components/Shared/Footer/Footer'
 import Navbar from './Components/Shared/Navbar/Navbar'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           incidunt perferendis voluptatum iste voluptas.
         </h1>
       </div>
+      <Footer></Footer>
     </>
   )
 }
